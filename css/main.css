@@ -13,3 +13,11 @@
     height: 700px;
 }
 
+.card{
+    border: none;
+}
+
+.card-img-top{
+   
+    margin: auto;
+}
