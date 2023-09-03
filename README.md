@@ -1,6 +1,6 @@
 # FinalAssessmentT3
 Final Assessment 
-![Aquatic Haven Logo](/assests/logo.jpg)
+![Aquatic Haven Logo](./assets/logo.jpg)
 
 This is my final project for term 3 which uses css,html and javascript
 
@@ -11,6 +11,7 @@ This is my final project for term 3 which uses css,html and javascript
 * [About the Project](#about-the-project)
    * [Home](#home)
    * [Trips Page](#trips-page)
+   *[Checkout Page](#checkout-page)
 * [Getting Started](#getting-started)
   * [Installing](#installing)
 * [Built With](#built-with)
@@ -21,19 +22,22 @@ This is my final project for term 3 which uses css,html and javascript
 
 ## About The Project
 
-Aqautic Haven is a cruise ship website that sorts and filters throught available cruises.This type of website is usually associated with vacations
+Aqautic Haven is a cruise ship website that sorts and filters throught available cruises.This type of website is usually associated with vacations.
 
 ### Home
 
-![Homepgae](/assests/HomePageOne.jpeg)
-![Homepgae](/assests/HomePageOne.jpeg)
+![Homepgae](./assets/HomePageOne.jpeg)
+![Homepgae](./assets/HomePageTwo.jpeg)
 
 
 ### Trips Page
 
-![Aquatic Haven Logo](/assets/tripsOne.jpeg)
+![Aquatic Haven Logo](/assets/TripsPageOne.jpeg)
 ![Aquatic Haven Logo](/assets/tripsThree.jpeg)
+![Aquatic Haven Trips](/assets/tripsFour.jpeg)
 
+### Checkout Page
+![Aquatic Haven Logo](/assets/checkoutPage.jpeg)
 
 ## Getting Started
 
