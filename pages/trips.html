@@ -40,7 +40,7 @@
           <a class="nav-link" style="margin-left:200px; font-family:'Yeseva One'; font-weight: 900;">Trips</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="margin-left:200px; font-family:'Yeseva One'; font-weight: 900;">Checkout</a>
+          <a class="nav-link" href="../pages/checkout.html" style="margin-left:200px; font-family:'Yeseva One'; font-weight: 900;">Checkout</a>
         </li>
       </ul>
     </div>
@@ -100,11 +100,11 @@
     <input type="radio" class="btn-check" name="filterRadio" id="allRoundCruises" value="allRound"  autocomplete="off">
     <label class="btn btn-outline-primary" for="allRoundCruises">All Round Cruises</label>
   
-    <input type="radio" class="btn-check" name="filterRadio" id="singleDes" value="singleDestination"   autocomplete="off">
-    <label class="btn btn-outline-primary" for="singleDes">Single Destination</label>
+    <input type="radio" class="btn-check" name="filterRadio" id="singleDestination" value="single"   autocomplete="off">
+    <label class="btn btn-outline-primary" for="singleDestination">Single Destination</label>
 
-    <input type="radio" class="btn-check" name="filterRadio" id="multiDes" value="multiDestination"   autocomplete="off">
-    <label class="btn btn-outline-primary" for="multiDes"> Multi Destination</label>
+    <input type="radio" class="btn-check" name="filterRadio" id="multiDestination" value="multi"   autocomplete="off">
+    <label class="btn btn-outline-primary" for="multiDestination"> Multi Destination</label>
 
 
   </div>
@@ -116,8 +116,8 @@
    <!--Sort-->
 
    <div class="btn-group col-auto" role="group" aria-label="Basic radio toggle button group"  style="margin-left: 950px ; margin-top: 20px;">
-    <input type="radio" class="btn-check" name="SortRadio" id="sandlDuration" value="duration"   autocomplete="off">
-    <label class="btn btn-outline-secondary" for="sandlDuration">Short Duration -> Long Duration</label>
+    <input type="radio" class="btn-check" name="SortRadio" id="Duration" value="shortAndLong"   autocomplete="off">
+    <label class="btn btn-outline-secondary" for="Duration">Short Duration -> Long Duration</label>
   
     <input type="radio" class="btn-check" name="SortRadio" id="priceSort" value="low to high"  autocomplete="off">
     <label class="btn btn-outline-secondary" for="priceSort">Prices: low -> high</label>
@@ -137,26 +137,26 @@
       <button type="button" class="btn btn-outline" style="margin-left:85%;  font-family:'Yeseva One'; font-weight: 900;">See More Trips<i class="bi bi-arrow-right-circle-fill" style="padding-left: 10px;"></i></button>
   </div>
 
-
-  
     <div class="row" id="tripsBox">
-      <template id="cardTemp">
-      <div class="col-4">
-          <div class="card" style="margin-left: 30px; margin-bottom: 100px;">
-              <img src="../assets/hawaiiCruise.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 style="font-family:'Yeseva One'; font-weight: 900;" id="heading" >Hawaii</h3>
-                <p class="card-text" id="descriptionText">Depart from San Francisco at 9am. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consequuntur omnis illo optio sint, voluptates corrupti tempore libero est debitis voluptatem praesentium. Neque eveniet!</p>
-                <p id="priceText">PRICE : R1500</p>
-                <button type="button" class="btn btn-secondary btn-sm" style="color: white; background-color: rgb(242, 68, 5); border-color:rgb(242, 68, 5) ; margin-left: 140px; margin-top: 20px;">BOOK NOW</button>
-              </div>
-            </div>
-      </div>
-    </template>
+      
+<!--trips cards appended we moved them down below-->
+
     </div>
 </div>
 
-
+<template id="cardTemp">
+  <div class="col-4">
+      <div class="card" style="margin-left: 30px; margin-bottom: 100px;">
+          <img src="../assets/hawaiiCruise.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 style="font-family:'Yeseva One'; font-weight: 900;" id="heading" >Hawaii</h3>
+            <p class="card-text" id="descriptionText">Depart from San Francisco at 9am. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consequuntur omnis illo optio sint, voluptates corrupti tempore libero est debitis voluptatem praesentium. Neque eveniet!</p>
+            <p id="priceText">PRICE : R1500</p>
+            <button type="button" class="btn btn-secondary btn-sm" style="color: white; background-color: rgb(242, 68, 5); border-color:rgb(242, 68, 5) ; margin-left: 140px; margin-top: 20px;">BOOK NOW</button>
+          </div>
+        </div>
+  </div>
+</template>
 
 
 
