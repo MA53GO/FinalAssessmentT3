@@ -11,7 +11,7 @@ This is my final project for term 3 which uses css,html and javascript
 * [About the Project](#about-the-project)
    * [Home](#home)
    * [Trips Page](#trips-page)
-   *[Checkout Page](#checkout-page)
+   * [Checkout Page](#checkout-page)
 * [Getting Started](#getting-started)
   * [Installing](#installing)
 * [Built With](#built-with)
